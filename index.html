@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dadson Group | Küresel Güç, Premium Çözümler</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dadson Group - Dadson Elektrik ve Dadson Yapı ile uluslararası düzeyde mühendislik, taahhüt ve premium yapı çözümleri sunar.">
+    <meta name="keywords" content="Dadson Group, Dadson Elektrik, Dadson Yapı, mühendislik, elektrik taahhüt, inşaat, premium yapı, küresel projeler">
+    <meta name="author" content="Dadson Group">
+    
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Syncopate:wght@400;700&family=Syne:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Performance Preloading for Large Corporate Assets -->
+    <link rel="preload" href="Images/Banner.jpeg" as="image">
+    <link rel="preload" href="Images/Logo.png" as="image">
+    <link rel="preload" href="Images/DADSON.png" as="image">
+</head>
+<body class="dark-theme">
+
+    <!-- Ambient Background Particles -->
+    <canvas id="ambient-particles" class="ambient-particles"></canvas>
+
+    <!-- Premium Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <img src="Images/Logo.png" alt="Dadson Group Logo" class="preloader-logo-img" width="80" height="80">
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+            <p class="preloader-text"><img src="Images/DADSON.png" class="inline-dadson-logo-preloader" alt="Dadson"></p>
+        </div>
+    </div>
+
+    <!-- Page Transition Curtain Loader -->
+    <div id="transition-overlay" class="transition-overlay">
+        <div class="transition-spinner">
+            <svg viewBox="0 0 100 100" width="60" height="60">
+                <defs>
+                    <linearGradient id="gold-grad-trans" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#FFF275" />
+                        <stop offset="50%" stop-color="#F8DA00" />
+                        <stop offset="100%" stop-color="#C7AF00" />
+                    </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="40" stroke="rgba(248, 218, 0, 0.08)" stroke-width="3" fill="none"/>
+                <circle cx="50" cy="50" r="40" stroke="url(#gold-grad-trans)" stroke-width="3" fill="none" stroke-dasharray="250" stroke-dashoffset="180" class="spinner-ring"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <!-- Brand Logo -->
+            <a href="#home" class="brand-logo" id="logo-link" data-target="home">
+                <img src="Images/Logo.png" alt="Dadson Group Logo" class="brand-logo-img">
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-target="home" data-i18n="nav_home">Ana Sayfa</a></li>
+                    <li><a href="#hakkimizda" class="nav-link" data-target="hakkimizda" data-i18n="nav_hakkimizda">Hakkımızda</a></li>
+                </ul>
+            </nav>
+
+            <!-- Actions (Language Selector & Contact Button) -->
+            <div class="header-actions">
+                <!-- Dropdown Language Selector -->
+                <div class="lang-selector-container">
+                    <button class="lang-selected-btn" id="lang-btn" aria-label="Dil Seçiniz">
+                        <span class="lang-icon">🌐</span> <span class="lang-label">TR</span>
+                    </button>
+                    <ul class="lang-dropdown" id="lang-dropdown">
+                        <li><button class="lang-opt" data-lang="tr">Türkçe</button></li>
+                        <li><button class="lang-opt" data-lang="en">English</button></li>
+                        <li><button class="lang-opt" data-lang="ar">العربية</button></li>
+                        <li><button class="lang-opt" data-lang="ka">ქართული</button></li>
+                        <li><button class="lang-opt" data-lang="ru">Русский</button></li>
+                        <li><button class="lang-opt" data-lang="fr">Français</button></li>
+                        <li><button class="lang-opt" data-lang="it">Italiano</button></li>
+                    </ul>
+                </div>
+                <a href="#contact" class="btn btn-premium-nav" id="nav-contact-btn" data-i18n="nav_contact">İletişime Geç</a>
+                <button class="mobile-menu-toggle" id="menu-toggle-btn" aria-label="Menüyü Aç">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-overlay" id="mobile-nav-drawer">
+        <div class="mobile-nav-content">
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mob-link active" data-target="home" data-i18n="nav_home">Ana Sayfa</a></li>
+                <li><a href="#hakkimizda" class="mob-link" data-target="hakkimizda" data-i18n="nav_hakkimizda">Hakkımızda</a></li>
+                <li><a href="#contact" class="mob-link btn btn-premium-mob" id="mob-contact-btn" data-i18n="nav_contact">İletişime Geç</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Elektrik Custom Header (Direct Body Child) -->
+    <header class="elektrik-main-header" style="display: none;">
+        <div class="header-container">
+            <a href="#home" class="brand-logo elektrik-logo-link" id="elektrik-logo-link" data-target="home">
+                <img src="Images/Logo.png" alt="Dadson Elektrik Logo" class="brand-logo-img">
+            </a>
+
+            <nav class="elektrik-desktop-nav">
+                <ul>
+                    <li><a href="#elektrik-home" class="elektrik-nav-link active" data-target="elektrik-home" data-i18n="nav_el_home">ANASAYFA</a></li>
+                    <li class="elektrik-dropdown-container">
+                        <a href="javascript:void(0)" class="elektrik-nav-link elektrik-dropdown-trigger" data-i18n="nav_el_about">HAKKIMIZDA</a>
+                        <ul class="elektrik-submenu">
+                            <li><a href="#elektrik-about-history" data-i18n="el_about_history_title">Tarihçe</a></li>
+                            <li><a href="#elektrik-about-ceo" data-i18n="el_about_ceo_quicklink">CEO Eren DEMİRBAŞ</a></li>
+                            <li><a href="#elektrik-about-mission" data-i18n="el_about_mission_title">Misyonumuz</a></li>
+                        </ul>
+                    </li>
+                    <li class="elektrik-dropdown-container">
+                        <a href="javascript:void(0)" class="elektrik-nav-link elektrik-dropdown-trigger" data-i18n="nav_el_services">HİZMETLERİMİZ</a>
+                        <ul class="elektrik-submenu">
+                            <li><a href="#elektrik-services-taahhut" data-i18n="el_service_taahhut_menu">Elektrik Taahhüt</a></li>
+                            <li><a href="#elektrik-services-aydinlatma" data-i18n="el_service_aydinlatma_menu">Aydınlatma Mimarisi</a></li>
+                            <li><a href="#elektrik-services-otomasyon" data-i18n="el_service_otomasyon_menu">Otomasyon Sistemleri</a></li>
+                            <li><a href="#elektrik-services-solar" data-i18n="el_service_solar_menu">Güneş Enerjisi (Solar GES)</a></li>
+                            <li><a href="#elektrik-services-proje" data-i18n="el_service_proje_menu">Proje & Yönetim</a></li>
+                            <li><a href="#elektrik-services-ortagerilim" data-i18n="el_service_ortagerilim_menu">Orta Gerilim Sistemleri</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#elektrik-projects" class="elektrik-nav-link" data-target="elektrik-projects" data-i18n="nav_el_projects">PROJELER</a></li>
+                    <li><a href="#elektrik-career" class="elektrik-nav-link" data-target="elektrik-career" data-i18n="nav_el_career">KARİYER</a></li>
+                    <li><a href="#elektrik-contact" class="elektrik-nav-link" data-target="elektrik-contact" data-i18n="nav_el_contact">İLETİŞİM</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-selector-container">
+                    <button class="lang-selected-btn elektrik-lang-btn" id="elektrik-lang-btn" aria-label="Dil Seçiniz">
+                        <span class="lang-icon">🌐</span> <span class="lang-label elektrik-lang-label">TR</span>
+                    </button>
+                    <ul class="lang-dropdown elektrik-lang-dropdown" id="elektrik-lang-dropdown">
+                        <li><button class="lang-opt" data-lang="tr">Türkçe</button></li>
+                        <li><button class="lang-opt" data-lang="en">English</button></li>
+                        <li><button class="lang-opt" data-lang="ar">العربية</button></li>
+                        <li><button class="lang-opt" data-lang="ka">ქართული</button></li>
+                        <li><button class="lang-opt" data-lang="ru">Русский</button></li>
+                        <li><button class="lang-opt" data-lang="fr">Français</button></li>
+                        <li><button class="lang-opt" data-lang="it">Italiano</button></li>
+                    </ul>
+                </div>
+                <button class="mobile-menu-toggle elektrik-menu-toggle-btn" id="elektrik-menu-toggle-btn" aria-label="Menüyü Aç">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer for Elektrik (Direct Body Child) -->
+    <div class="mobile-nav-overlay elektrik-mobile-nav-drawer" id="elektrik-mobile-nav-drawer" style="display: none;">
+        <div class="mobile-nav-content">
+            <ul class="mobile-nav-links">
+                <li><a href="#elektrik-home" class="elektrik-mob-link active" data-target="elektrik-home" data-i18n="nav_el_home">ANASAYFA</a></li>
+                <li class="elektrik-mob-dropdown-container">
+                    <a href="javascript:void(0)" class="elektrik-mob-link elektrik-mob-dropdown-trigger" data-i18n="nav_el_about">HAKKIMIZDA</a>
+                    <ul class="elektrik-mob-submenu">
+                        <li><a href="#elektrik-about-history" class="elektrik-mob-submenu-link" data-i18n="el_about_history_title" style="font-size: 0.95rem; opacity: 0.85;">Tarihçe</a></li>
+                        <li><a href="#elektrik-about-ceo" class="elektrik-mob-submenu-link" data-i18n="el_about_ceo_quicklink" style="font-size: 0.95rem; opacity: 0.85;">CEO Eren DEMİRBAŞ</a></li>
+                        <li><a href="#elektrik-about-mission" class="elektrik-mob-submenu-link" data-i18n="el_about_mission_title" style="font-size: 0.95rem; opacity: 0.85;">Misyonumuz</a></li>
+                    </ul>
+                </li>
+                <li class="elektrik-mob-dropdown-container">
+                    <a href="javascript:void(0)" class="elektrik-mob-link elektrik-mob-dropdown-trigger" data-i18n="nav_el_services">HİZMETLERİMİZ</a>
+                    <ul class="elektrik-mob-submenu">
+                        <li><a href="#elektrik-services-taahhut" class="elektrik-mob-submenu-link" data-i18n="el_service_taahhut_menu" style="font-size: 0.95rem; opacity: 0.85;">Elektrik Taahhüt</a></li>
+                        <li><a href="#elektrik-services-aydinlatma" class="elektrik-mob-submenu-link" data-i18n="el_service_aydinlatma_menu" style="font-size: 0.95rem; opacity: 0.85;">Aydınlatma Mimarisi</a></li>
+                        <li><a href="#elektrik-services-otomasyon" class="elektrik-mob-submenu-link" data-i18n="el_service_otomasyon_menu" style="font-size: 0.95rem; opacity: 0.85;">Otomasyon Sistemleri</a></li>
+                        <li><a href="#elektrik-services-solar" class="elektrik-mob-submenu-link" data-i18n="el_service_solar_menu" style="font-size: 0.95rem; opacity: 0.85;">Güneş Enerjisi (Solar GES)</a></li>
+                        <li><a href="#elektrik-services-proje" class="elektrik-mob-submenu-link" data-i18n="el_service_proje_menu" style="font-size: 0.95rem; opacity: 0.85;">Proje & Yönetim</a></li>
+                        <li><a href="#elektrik-services-ortagerilim" class="elektrik-mob-submenu-link" data-i18n="el_service_ortagerilim_menu" style="font-size: 0.95rem; opacity: 0.85;">Orta Gerilim Sistemleri</a></li>
+                    </ul>
+                </li>
+                <li><a href="#elektrik-projects" class="elektrik-mob-link" data-target="elektrik-projects" data-i18n="nav_el_projects">PROJELER</a></li>
+                <li><a href="#elektrik-career" class="elektrik-mob-link" data-target="elektrik-career" data-i18n="nav_el_career">KARİYER</a></li>
+                <li><a href="#elektrik-contact" class="elektrik-mob-link" data-target="elektrik-contact" data-i18n="nav_el_contact">İLETİŞİM</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Page Views Container -->
+    <main class="page-container" id="main-view-container">
+        
+        <!-- ==============================================
+             1. HOME VIEW (Portal Landing with Video Backdrop)
+             ============================================== -->
+        <section id="home-view" class="page-view active">
+            <!-- Video/Abstract Hero Background -->
+            <div class="hero-backdrop">
+                <!-- Background Banner Video -->
+                <video class="hero-video" autoplay loop muted playsinline id="hero-bg-video">
+                    <source src="Videos/download.mp4" type="video/mp4">
+                </video>
+                <!-- Radial Dark Overlay to blend video into deep black page background -->
+                <div class="hero-overlay"></div>
+            </div>
+
+            <!-- Hero Portal Content -->
+            <div class="hero-content-wrapper">
+
+                <div class="hero-intro-text">
+                    <h2 class="hero-pre-title" data-i18n="hero_title">KÜRESEL GÜÇ, MODERN MÜHENDİSLİK</h2>
+                    <h1 class="hero-main-title"><img src="Images/DADSON.png" alt="Dadson" class="hero-brand-logo-img"></h1>
+                    <p class="hero-description" data-i18n="hero_desc">DADSON GROUP KÜRESEL BİR TİCARET ŞİRKETİDİR</p>
+                    
+                    <div class="hero-links-group">
+                        <a href="#elektrik" class="hero-text-link"><span class="brand-yellow-text" data-i18n="word_dadson">Dadson</span> <span data-i18n="word_elektrik">Elektrik</span></a>
+                        <a href="#yapi" class="hero-text-link"><span class="brand-yellow-text" data-i18n="word_dadson">Dadson</span> <span data-i18n="word_yapi">Yapı</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             2. ELEKTRIK VIEW (Dadson Elektrik)
+             ============================================== -->
+        <section id="elektrik-view" class="page-view">
+            <!-- Elektrik Sub-page Views Wrapper -->
+            <div class="elektrik-subviews-container">
+
+                <!-- 1. ELEKTRIK HOME SUB-VIEW -->
+                <div id="elektrik-home-subview" class="elektrik-subview active">
+                    <!-- Kurumsal Top Banner Block with Video -->
+                    <div class="contact-banner-header elektrik-home-hero">
+                        <video class="contact-banner-video" autoplay loop muted playsinline>
+                            <source src="Videos/Untitled design.mp4" type="video/mp4">
+                        </video>
+                        <div class="contact-banner-overlay"></div>
+                        <div class="elektrik-header">
+                            <h1 class="elektrik-page-title">
+                                <img src="Images/DADSON.png" alt="Dadson" class="elektrik-page-logo-img"> <span data-i18n="word_elektrik">ELEKTRİK</span>
+                            </h1>
+                            <p class="elektrik-page-subtitle" data-i18n="elektrik_intro">Küresel standartlarda yüksek mühendislik ve anahtar teslim elektrik taahhüt çözümleri.</p>
+                        </div>
+                    </div>
+
+                    <div class="elektrik-page-wrapper">
+
+                        <!-- Kısaca Dadson Section -->
+                        <div class="elektrik-home-about scroll-reveal">
+                            <h2 class="about-section-title text-center" data-i18n="el_home_about_title">KISACA DADSON</h2>
+                            <div class="elektrik-home-about-content">
+                                <p class="about-p" data-i18n="el_home_about_p1">Kurucularımızın 1906’dan bu yana, bir asırdan daha uzun süredir birikim ve tecrübesiyle Türkiye’de elektrik taahhüt sektörünün en saygın ve bilinen şirketlerinden biri olarak faaliyet gösteriyoruz. Kuruluşumuzdan bugüne yüzlerce projede elektrik taahhüt işlerini tamamladık.</p>
+                                <p class="about-p" data-i18n="el_home_about_p2">Misyonumuz; aldığımız tüm projeleri tam zamanında, uluslararası standartlarda erişilebilecek en yüksek kalitede, hatasız ve kalitemizi de yansıtan optimum fiyatla tamamlamaktır. Hedefimiz Elektrik Taahhüt alanında Dünyanın ilk 3 şirketi arasında yer almaktır.</p>
+                            </div>
+                        </div>
+
+                        <!-- Rakamlarla Dadson Section -->
+                        <div class="elektrik-stats scroll-reveal">
+                            <h2 class="about-section-title text-center" data-i18n="el_home_stats_title">RAKAMLARLA DADSON</h2>
+                            <p class="stats-tagline text-center" data-i18n="el_home_stats_tagline">Bir Asrı Aşan Güvenle Büyüyoruz!</p>
+                            <div class="stats-grid three-cols">
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                    </div>
+                                    <div class="stat-value">
+                                        <span class="stat-prefix">+</span><span class="counter-num" data-target="120">0</span>
+                                    </div>
+                                    <div class="stat-label" data-i18n="el_home_stats_item1">senelik tecrübe</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                            <polyline points="22 4 12 14.01 9 11.01"/>
+                                        </svg>
+                                    </div>
+                                    <div class="stat-value">
+                                        <span class="stat-prefix">+</span><span class="counter-num" data-target="1000">0</span>
+                                    </div>
+                                    <div class="stat-label" data-i18n="el_home_stats_item2">proje</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="13 17 18 12 13 7"/>
+                                            <polyline points="6 17 11 12 6 7"/>
+                                        </svg>
+                                    </div>
+                                    <div class="stat-value">
+                                        <span class="stat-prefix">+</span><span class="counter-num" data-target="15">0</span>
+                                    </div>
+                                    <div class="stat-label" data-i18n="el_home_stats_item3">devam eden proje</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Faaliyet Alanları -->
+                        <div class="elektrik-services scroll-reveal">
+                            <h2 class="about-section-title text-center" data-i18n="elektrik_services_title">Faaliyet Alanlarımız</h2>
+                            <div class="elektrik-services-grid">
+                                <!-- Card 1: Elektrik Taahhüt -->
+                                <div class="elektrik-service-card">
+                                    <div class="srv-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="el_service_1_title">Elektrik Taahhüt</h3>
+                                    <p data-i18n="el_service_1_desc">Konut, ticari ve endüstriyel tesisler için yüksek standartlarda anahtar teslim elektrik altyapı çözümleri.</p>
+                                </div>
+                                <!-- Card 2: Aydınlatma Mimarisi -->
+                                <div class="elektrik-service-card">
+                                    <div class="srv-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M15 14c.2-1 .7-2 1.5-3 .8-1 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.7 2.5 1.5 3.5.8 1 1.3 2 1.5 3"/>
+                                            <path d="M9 18h6"/>
+                                            <path d="M10 22h4"/>
+                                            <line x1="12" y1="2" x2="12" y2="4"/>
+                                            <line x1="22" y1="8" x2="20" y2="8"/>
+                                            <line x1="4" y1="8" x2="2" y2="8"/>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="el_service_2_title">Aydınlatma Mimarisi</h3>
+                                    <p data-i18n="el_service_2_desc">Mekanların estetik değerini artıran, enerji tasarruflu ve kullanıcı odaklı premium aydınlatma tasarımları.</p>
+                                </div>
+                                <!-- Card 3: Otomasyon Sistemleri -->
+                                <div class="elektrik-service-card">
+                                    <div class="srv-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
+                                            <rect x="9" y="9" width="6" height="6"/>
+                                            <line x1="9" y1="1" x2="9" y2="4"/>
+                                            <line x1="15" y1="1" x2="15" y2="4"/>
+                                            <line x1="9" y1="20" x2="9" y2="23"/>
+                                            <line x1="15" y1="20" x2="15" y2="23"/>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="el_service_3_title">Otomasyon Sistemleri</h3>
+                                    <p data-i18n="el_service_3_desc">Akıllı bina ve endüstriyel tesisler için konfor, güvenlik ve enerji verimliliği sağlayan otomasyon çözümleri.</p>
+                                </div>
+                                <!-- Card 4: Güneş Enerjisi -->
+                                <div class="elektrik-service-card">
+                                    <div class="srv-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M12 2v6"/>
+                                            <path d="M5 5l4.5 4.5"/>
+                                            <path d="M19 5l-4.5 4.5"/>
+                                            <rect x="3" y="12" width="18" height="10" rx="1"/>
+                                            <line x1="12" y1="12" x2="12" y2="22"/>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="el_service_4_title">Güneş Enerjisi (Solar GES)</h3>
+                                    <p data-i18n="el_service_4_desc">Sürdürülebilir bir gelecek için çatı ve arazi tipi güneş enerjisi santralleri anahtar teslim kurulumu ve mühendisliği.</p>
+                                </div>
+                                <!-- Card 5: Proje & Yönetim -->
+                                <div class="elektrik-service-card">
+                                    <div class="srv-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                                            <path d="M9 12h6"/>
+                                            <path d="M9 16h6"/>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="el_service_5_title">Proje & Yönetim</h3>
+                                    <p data-i18n="el_service_5_desc">Karmaşık elektrik ve enerji projelerinin tasarım aşamasından anahtar teslimine kadar uzman proje yönetimi ve danışmanlığı.</p>
+                                </div>
+                                <!-- Card 6: Orta Gerilim Sistemleri -->
+                                <div class="elektrik-service-card">
+                                    <div class="srv-icon-wrap">
+                                        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M12 2L4 22"/>
+                                            <path d="M12 2l8 20"/>
+                                            <path d="M7 10h10"/>
+                                            <path d="M5 15h14"/>
+                                            <path d="M9 22V15"/>
+                                            <path d="M15 22V15"/>
+                                            <path d="M4 10l8-4 8 4"/>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="el_service_6_title">Orta Gerilim Sistemleri</h3>
+                                    <p data-i18n="el_service_6_desc">36 kV seviyesine kadar trafo merkezleri, şalt sahaları ve dağıtım şebekelerinin güvenli tasarımı, kurulumu ve testi.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 2. ELEKTRIK ABOUT SUB-VIEW -->
+                <div id="elektrik-about-subview" class="elektrik-subview">
+                    <div class="contact-banner-header">
+                        <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Elektrik About Banner">
+                        <div class="contact-banner-overlay"></div>
+                    </div>
+
+                    <div class="elektrik-about-wrapper">
+
+
+                        <!-- Section 1: Tarihçe -->
+                        <section id="el-history-sec" class="elektrik-about-section scroll-reveal">
+                            <h2 class="about-section-title" data-i18n="el_about_history_title_main">TARİHÇE</h2>
+                            <div class="about-section-content">
+                                <h3 class="about-section-subtitle-text" data-i18n="el_about_history_subtitle" style="color: var(--color-gold); font-size: 1.15rem; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">ÜÇ KUŞAKTIR ENERJİYE YÖN VEREN MİRAS</h3>
+                                <p class="about-p" data-i18n="el_about_history_p1">Dadson Elektrik, temelleri 1906 yılında Türkiye’nin ilk elektrik üretim tesislerinden biri olan Tarsus Elektrik Santrali’ne dayanan köklü bir mühendislik ve ustalık mirasının temsilcisidir. Elektrik sektöründeki bilgi, disiplin ve saha tecrübesini üç kuşaktır sürdüren Demirbaş ailesi; geçmişten bugüne birçok başarılı projeye imza atmış, Güney Elektrik ve Güney Gerilim Elektrik gibi sektörün güvenilir markalarıyla enerji altyapısının gelişiminde önemli rol üstlenmiştir.</p>
+                                <p class="about-p" data-i18n="el_about_history_p2">Bu güçlü birikimin modern vizyonla birleşmesi sonucunda, 2022 yılında Yusuf Eren DEMİRBAŞ liderliğinde kurulan Dadson Elektrik; elektrik taahhüt, aydınlatma mimarisi, güneş enerjisi sistemleri ve otomasyon teknolojileri alanlarında yenilikçi, sürdürülebilir ve yüksek standartlı çözümler sunmaktadır.</p>
+                                <p class="about-p" data-i18n="el_about_history_p3">İsmini “Dad” (baba) ve “Son” (oğul) kelimelerinin birleşiminden alan Dadson, yalnızca bir marka değil; kuşaklar boyunca aktarılan bir meslek kültürünün, güven anlayışının ve geleceğe uzanan vizyonun sembolüdür. Geleneksel ustalığı çağdaş mühendislik yaklaşımıyla harmanlayan şirket, her projede kalite, estetik, verimlilik ve müşteri memnuniyetini temel ilke olarak benimsemektedir.</p>
+                                <p class="about-p" data-i18n="el_about_history_p4">“Aydınlatılmamış tek bir sokak bırakmamak” vizyonuyla hareket eden Dadson Elektrik; yaşam alanlarına değer katan, şehirlerin enerjisini geleceğe taşıyan ve teknolojiyi insan odaklı çözümlerle buluşturan projeler üretmeye devam etmektedir.</p>
+                            </div>
+                        </section>
+
+                        <!-- Section 2: CEO -->
+                        <section id="el-ceo-sec" class="elektrik-about-section el-ceo-section scroll-reveal">
+                            <div class="ceo-profile-container">
+                                <div class="ceo-profile-header">
+                                    <h2 class="about-section-title" data-i18n="el_about_ceo_title">CEO'muz Eren DEMİRBAŞ</h2>
+                                    <span class="ceo-title-sub" data-i18n="el_about_ceo_role">Yönetim Kurulu Başkanı & CEO</span>
+                                </div>
+                                <div class="about-section-content">
+                                    <p class="about-p text-highlight" data-i18n="el_about_ceo_p1">Yusuf Eren DEMİRBAŞ, 2000 yılında Adana’da doğmuş olup, ortaokul ve lise tahsilini Bursa'da, üniversite eğitimini Eskişehir Osmangazi Üniversitesinde Ekonomi olarak tamamlamıştır. Eğitim hayatını tamamladıktan sonra, elektrik ve enerji sektöründe çalışmalara başlamıştır.</p>
+                                    <p class="about-p" data-i18n="el_about_ceo_p2">Aydınlatma mimarisi ve inovatif aydınlatma çözümleri sektöründe 2018 yılından itibaren yoğun çalışmalarda bulunmuş, yurtdışında yaygın invovatif aydınlatma teknolojilerinin Türkiye’ye tanıtılması ve getirilmesi konularında çalışmalarda bulunmuştur.</p>
+                                    <p class="about-p" data-i18n="el_about_ceo_p3">Yusuf Eren DEMİRBAŞ, 2021 yılına kadar ortağı ve yönetim kurulu üyesi olduğu Güney Gerilim Elektrik İnşaat Taah. Tic. ve San. LTD. ŞTİ’de çalışmalarda bulunmuş, halen kurucu ortağı olduğu Dadson Elektrik İnşaat Taahhüt Gayrimenkul Otomotiv Sanayi ve Ticaret Limited Şirketi'nde Yönetim Kurulu Başkan ve CEO’luk görevlerini sürdürmektedir.</p>
+                                    <p class="about-p" data-i18n="el_about_ceo_p4">Bursa'da yaşayan Yusuf Eren DEMİRBAŞ çeşitli dernek ve kuruluşlarda üyeliği ve yöneticiliği bulunmaktadır.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Section 3: Misyon & Hedefler -->
+                        <section id="el-mission-sec" class="elektrik-about-section scroll-reveal">
+                            <div class="mission-goals-grid">
+                                <div class="mission-column">
+                                    <h3 class="about-section-title-small" data-i18n="el_about_mission_section_title">MİSYONUMUZ</h3>
+                                    <p class="about-p" data-i18n="el_about_mission_p1">Dadson Elektrik olarak misyonumuz; mühendislik gücü, saha tecrübesi ve yenilikçi teknolojileri bir araya getirerek, ulusal ve uluslararası ölçekte güvenilir, sürdürülebilir ve yüksek standartlı elektrik çözümleri sunmaktır.</p>
+                                    <p class="about-p" data-i18n="el_about_mission_p2">Üç kuşaktan gelen mesleki birikimimizi modern mühendislik anlayışıyla harmanlayarak; elektrik taahhüt, energy sistemleri, aydınlatma mimarisi, otomasyon ve yenilenebilir enerji alanlarında yaşam alanlarına, endüstriyel tesislere ve şehir altyapılarına değer katıyoruz.</p>
+                                    <p class="about-p" data-i18n="el_about_mission_p3">Her projede kalite, güvenlik, verimlilik ve estetik anlayışını temel ilke olarak benimseyen Dadson Elektrik; yalnızca bugünün ihtiyaçlarını karşılayan değil, geleceğin enerji dünyasına yön veren projeler üretmeyi hedeflemektedir.</p>
+                                    <p class="about-p" data-i18n="el_about_mission_p4">İnsan odaklı yaklaşımımız, güçlü teknik altyapımız ve çözüm odaklı hizmet anlayışımız ile dünyanın farklı coğrafyalarında güven duyulan bir mühendislik markası olmayı amaçlıyoruz.</p>
+                                </div>
+                                <div class="goals-column">
+                                    <h3 class="about-section-title-small" data-i18n="el_about_goals_section_title">HEDEFLERİMİZ</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_about_goals_li1">Türkiye’nin önde gelen elektrik taahhüt firmalarından biri olarak, global pazarda sürdürülebilir büyüme sağlayan uluslararası bir marka haline gelmek.</li>
+                                        <li data-i18n="el_about_goals_li2">Avrupa, Orta Doğu, Körfez Bölgesi, Afrika ve Türk Cumhuriyetleri başta olmak üzere uluslararası projelerde aktif rol almak ve stratejik iş ortaklıkları geliştirmek.</li>
+                                        <li data-i18n="el_about_goals_li3">Elektrik taahhüt, güneş enerjisi sistemleri, akıllı bina teknolojileri ve endüstriyel otomasyon alanlarında yüksek mühendislik standartlarıyla ana yüklenici konumuna ulaşmak.</li>
+                                        <li data-i18n="el_about_goals_li4">Yenilenebilir enerji ve enerji verimliliği alanlarında çevreye duyarlı, sürdürülebilir ve geleceğe değer katan projeler geliştirmek.</li>
+                                        <li data-i18n="el_about_goals_li5">Teknolojik dönüşümü yakından takip ederek dijitalleşen dünyanın ihtiyaçlarına uygun akıllı enerji çözümleri üretmek.</li>
+                                        <li data-i18n="el_about_goals_li6">Uluslararası kalite standartlarına uygun, güvenli ve uzun ömürlü projelerle sektörde güvenin ve prestijin simgesi haline gelmek.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- 3. ELEKTRIK SERVICES SUB-VIEW -->
+                <div id="elektrik-services-subview" class="elektrik-subview">
+                    <div class="contact-banner-header">
+                        <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Elektrik Services Banner">
+                        <div class="contact-banner-overlay"></div>
+                    </div>
+                    <div class="elektrik-page-wrapper">
+                        <div class="elektrik-header">
+                            <h1 class="elektrik-page-title" data-i18n="el_services_main_title">HİZMETLERİMİZ</h1>
+                            <p class="elektrik-page-subtitle" data-i18n="el_services_main_subtitle">Mühendislik gücümüz ve tecrübemizle yaşam alanlarına ve endüstriyel tesislere enerji veriyoruz.</p>
+                        </div>
+
+                        <div class="elektrik-about-wrapper" style="padding: 20px 0 0 0;">
+                            <!-- Section 1: Elektrik Taahhüt -->
+                            <section id="el-srv-taahhut-sec" class="elektrik-services-section-tab active scroll-reveal">
+                                <h2 class="about-section-title" data-i18n="el_service_1_title">ELEKTRİK TAAHHÜT HİZMETLERİ</h2>
+                                <div class="about-section-content">
+                                    <p class="about-p" data-i18n="el_service_1_desc_long_1"></p>
+                                    <p class="about-p" data-i18n="el_service_1_desc_long_2"></p>
+                                    <h3 class="about-section-subtitle-text" data-i18n="elektrik_services_title" style="color: var(--color-gold); font-size: 1.15rem; margin-top: 40px; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">Faaliyet Alanlarımız</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_scope_1_1"></li>
+                                        <li data-i18n="el_scope_1_2"></li>
+                                        <li data-i18n="el_scope_1_3"></li>
+                                        <li data-i18n="el_scope_1_4"></li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 2: Aydınlatma Mimarisi -->
+                            <section id="el-srv-aydinlatma-sec" class="elektrik-services-section-tab scroll-reveal">
+                                <h2 class="about-section-title" data-i18n="el_service_2_title">AYDINLATMA MİMARİSİ VE TASARIMI</h2>
+                                <div class="about-section-content">
+                                    <p class="about-p" data-i18n="el_service_2_desc_long_1"></p>
+                                    <p class="about-p" data-i18n="el_service_2_desc_long_2"></p>
+                                    <h3 class="about-section-subtitle-text" data-i18n="elektrik_services_title" style="color: var(--color-gold); font-size: 1.15rem; margin-top: 40px; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">Faaliyet Alanlarımız</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_scope_2_1"></li>
+                                        <li data-i18n="el_scope_2_2"></li>
+                                        <li data-i18n="el_scope_2_3"></li>
+                                        <li data-i18n="el_scope_2_4"></li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 3: Otomasyon Sistemleri -->
+                            <section id="el-srv-otomasyon-sec" class="elektrik-services-section-tab scroll-reveal">
+                                <h2 class="about-section-title" data-i18n="el_service_3_title">ENDÜSTRİYEL VE BİNA OTOMASYONU</h2>
+                                <div class="about-section-content">
+                                    <p class="about-p" data-i18n="el_service_3_desc_long_1"></p>
+                                    <p class="about-p" data-i18n="el_service_3_desc_long_2"></p>
+                                    <h3 class="about-section-subtitle-text" data-i18n="elektrik_services_title" style="color: var(--color-gold); font-size: 1.15rem; margin-top: 40px; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">Faaliyet Alanlarımız</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_scope_3_1"></li>
+                                        <li data-i18n="el_scope_3_2"></li>
+                                        <li data-i18n="el_scope_3_3"></li>
+                                        <li data-i18n="el_scope_3_4"></li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 4: Güneş Enerjisi -->
+                            <section id="el-srv-solar-sec" class="elektrik-services-section-tab scroll-reveal">
+                                <h2 class="about-section-title" data-i18n="el_service_4_title">GÜNEŞ ENERJİSİ SİSTEMLERİ (SOLAR GES)</h2>
+                                <div class="about-section-content">
+                                    <p class="about-p" data-i18n="el_service_4_desc_long_1"></p>
+                                    <p class="about-p" data-i18n="el_service_4_desc_long_2"></p>
+                                    <h3 class="about-section-subtitle-text" data-i18n="elektrik_services_title" style="color: var(--color-gold); font-size: 1.15rem; margin-top: 40px; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">Faaliyet Alanlarımız</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_scope_4_1"></li>
+                                        <li data-i18n="el_scope_4_2"></li>
+                                        <li data-i18n="el_scope_4_3"></li>
+                                        <li data-i18n="el_scope_4_4"></li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 5: Proje & Yönetim -->
+                            <section id="el-srv-proje-sec" class="elektrik-services-section-tab scroll-reveal">
+                                <h2 class="about-section-title" data-i18n="el_service_5_title_long">PROJE VE YÖNETİM HİZMETLERİ</h2>
+                                <div class="about-section-content">
+                                    <p class="about-p" data-i18n="el_service_5_desc_long_1"></p>
+                                    <p class="about-p" data-i18n="el_service_5_desc_long_2"></p>
+                                    <h3 class="about-section-subtitle-text" data-i18n="elektrik_services_title" style="color: var(--color-gold); font-size: 1.15rem; margin-top: 40px; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">Faaliyet Alanlarımız</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_scope_5_1"></li>
+                                        <li data-i18n="el_scope_5_2"></li>
+                                        <li data-i18n="el_scope_5_3"></li>
+                                        <li data-i18n="el_scope_5_4"></li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Section 6: Orta Gerilim Sistemleri -->
+                            <section id="el-srv-ortagerilim-sec" class="elektrik-services-section-tab scroll-reveal">
+                                <h2 class="about-section-title" data-i18n="el_service_6_title_long">ORTA GERİLİM SİSTEMLERİ</h2>
+                                <div class="about-section-content">
+                                    <p class="about-p" data-i18n="el_service_6_desc_long_1"></p>
+                                    <p class="about-p" data-i18n="el_service_6_desc_long_2"></p>
+                                    <h3 class="about-section-subtitle-text" data-i18n="elektrik_services_title" style="color: var(--color-gold); font-size: 1.15rem; margin-top: 40px; margin-bottom: 25px; font-family: 'Syncopate', sans-serif;">Faaliyet Alanlarımız</h3>
+                                    <ul class="about-goals-list">
+                                        <li data-i18n="el_scope_6_1"></li>
+                                        <li data-i18n="el_scope_6_2"></li>
+                                        <li data-i18n="el_scope_6_3"></li>
+                                        <li data-i18n="el_scope_6_4"></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. ELEKTRIK PROJECTS SUB-VIEW -->
+                <div id="elektrik-projects-subview" class="elektrik-subview">
+                    <div class="contact-banner-header">
+                        <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Elektrik Projects Banner">
+                        <div class="contact-banner-overlay"></div>
+                    </div>
+                    <div class="elektrik-page-wrapper">
+                        <div class="elektrik-header">
+                            <h1 class="elektrik-page-title" data-i18n="nav_el_projects">PROJELER</h1>
+                            <p class="elektrik-page-subtitle" data-i18n="elektrik_projects_title">Projelerimiz</p>
+                        </div>
+                        
+                        <div class="elektrik-projects-section scroll-reveal" style="margin-top: 4rem;">
+                            <!-- Filter Bar -->
+                            <div class="project-filter-bar">
+                                <button class="project-filter-btn active" data-filter="all" data-i18n="elektrik_filter_all">Tümü</button>
+                                <button class="project-filter-btn" data-filter="completed" data-i18n="elektrik_filter_completed">Tamamlanan</button>
+                                <button class="project-filter-btn" data-filter="ongoing" data-i18n="elektrik_filter_ongoing">Devam Eden</button>
+                            </div>
+                            
+                            <!-- 3D Slider Container -->
+                            <div class="el-projects-slider-container">
+                                <!-- Navigation Arrows -->
+                                <button class="slider-nav-btn prev-btn" aria-label="Önceki Proje">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="15 18 9 12 15 6"/>
+                                    </svg>
+                                </button>
+                                
+                                <div class="el-projects-slider-track">
+                                    <!-- Project 1: Yaşamkent -->
+                                    <div class="el-project-card" data-status="completed" data-project-id="yasamkent">
+                                        <div class="el-proj-img-wrap">
+                                            <img class="el-proj-img" src="Images/grounding_scene_6.png" alt="Yaşamkent Konut Projesi">
+                                        </div>
+                                        <div class="el-proj-body">
+                                            <div class="el-proj-header">
+                                                <span class="el-proj-tag">Konut & Elektrik Taahhüt</span>
+                                                <span class="el-proj-badge completed">Tamamlanan</span>
+                                            </div>
+                                            <h3 class="el-proj-title">Yaşamkent</h3>
+                                            <p class="el-proj-desc">317 bağımsız birim · 20.000 m² inşaat alanı · Komple elektrik tesisat, topraklama ve aydınlatma altyapısı taahhüt işleri.</p>
+                                            <button class="el-proj-detail-btn" onclick="openProjectDetail('yasamkent')">
+                                                <span>Detay</span>
+                                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                                            </button>
+                                        </div>
+                                        <div class="el-card-glare"></div>
+                                    </div>
+
+                                    <!-- Project 2: Eskapet Fabrikası -->
+                                    <div class="el-project-card" data-status="completed" data-project-id="eskapet">
+                                        <div class="el-proj-img-wrap">
+                                            <img class="el-proj-img" src="Images/project_industrial.png" alt="Eskapet Pet Ürünleri Fabrikası">
+                                        </div>
+                                        <div class="el-proj-body">
+                                            <div class="el-proj-header">
+                                                <span class="el-proj-tag">Endüstriyel & Elektrik Taahhüt</span>
+                                                <span class="el-proj-badge completed">Tamamlanan</span>
+                                            </div>
+                                            <h3 class="el-proj-title">Eskapet Fabrikası</h3>
+                                            <p class="el-proj-desc">70.000 m² inşaat alanı · Türkiye'nin en büyük pet ürünleri fabrikasının komple elektrik tesisat ve enerji altyapısı.</p>
+                                            <button class="el-proj-detail-btn" onclick="openProjectDetail('eskapet')">
+                                                <span>Detay</span>
+                                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                                            </button>
+                                        </div>
+                                        <div class="el-card-glare"></div>
+                                    </div>
+
+                                    <!-- Project 3: Antalya Şehir Hastanesi -->
+                                    <div class="el-project-card" data-status="completed">
+                                        <div class="el-proj-img-wrap">
+                                            <img class="el-proj-img" src="Images/grounding_scene_4.png" alt="Antalya Şehir Hastanesi Temel Topraklama Projesi">
+                                        </div>
+                                        <div class="el-proj-body">
+                                            <div class="el-proj-header">
+                                                <span class="el-proj-tag" data-i18n="elektrik_proj_tag_ind">Elektrik Taahhüt</span>
+                                                <span class="el-proj-badge completed" data-i18n="elektrik_filter_completed">Tamamlanan</span>
+                                            </div>
+                                            <h3 class="el-proj-title" data-i18n="elektrik_proj_3_title">Antalya Şehir Hastanesi Temel Topraklama Projesi</h3>
+                                            <p class="el-proj-desc" data-i18n="elektrik_proj_3_desc">Antalya Şehir Hastanesi inşasında YDA İnşaat bünyesinde gerçekleştirilen, uluslararası standartlarda Cadweld ekzotermik kaynaklı temel topraklama montajı.</p>
+                                        </div>
+                                        <div class="el-card-glare"></div>
+                                    </div>
+
+                                    <!-- Project 4: Lüks Konut Projesi Akıllı Ev & Aydınlatma Tasarımı -->
+                                    <div class="el-project-card" data-status="ongoing">
+                                        <div class="el-proj-img-wrap">
+                                            <img class="el-proj-img" src="Images/project_towers.png" alt="Lüks Konut Projesi Akıllı Ev & Aydınlatma Tasarımı">
+                                        </div>
+                                        <div class="el-proj-body">
+                                            <div class="el-proj-header">
+                                                <span class="el-proj-tag" data-i18n="elektrik_proj_tag_comm">Aydınlatma & Otomasyon</span>
+                                                <span class="el-proj-badge ongoing" data-i18n="elektrik_filter_ongoing">Devam Eden</span>
+                                            </div>
+                                            <h3 class="el-proj-title" data-i18n="elektrik_proj_4_title">Lüks Konut Projesi Akıllı Ev & Aydınlatma Tasarımı</h3>
+                                            <p class="el-proj-desc" data-i18n="elektrik_proj_4_desc">Bursa Nilüfer lüks konut kompleksinin akıllı ev (KNX) otomasyon entegrasyonu ve estetik iç/dış cephe aydınlatma mimarisi tasarımı.</p>
+                                        </div>
+                                        <div class="el-card-glare"></div>
+                                    </div>
+                                </div>
+                                
+                                <button class="slider-nav-btn next-btn" aria-label="Sonraki Proje">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="9 18 15 12 9 6"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            
+                            <!-- Pagination Dots -->
+                            <div class="el-projects-pagination"></div>
+                        </div>
+
+                        <!-- PROJECT DETAIL MODAL: YAŞAMKENT -->
+                        <div id="project-detail-yasamkent" class="project-detail-modal" data-modal-id="yasamkent">
+                            <div class="project-detail-backdrop" onclick="closeProjectDetail()"></div>
+                            <div class="project-detail-content">
+                                <div class="project-detail-topbar">
+                                    <button class="project-detail-back" onclick="closeProjectDetail()">
+                                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                                        Geri Dön
+                                    </button>
+                                </div>
+
+                                <div class="project-detail-hero">
+                                    <img src="Images/grounding_scene_6.png" alt="Yaşamkent Projesi" class="project-detail-hero-img">
+                                    <div class="project-detail-hero-overlay">
+                                        <span class="project-detail-badge">Tamamlanan Proje</span>
+                                        <h2 class="project-detail-title">Yaşamkent</h2>
+                                        <p class="project-detail-location">
+                                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                            Bursa, Türkiye
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="project-detail-stats">
+                                    <div class="project-stat-item">
+                                        <span class="project-stat-number counter-animate" data-target="317">0</span>
+                                        <span class="project-stat-label">Bağımsız Birim</span>
+                                    </div>
+                                    <div class="project-stat-item">
+                                        <span class="project-stat-number counter-animate" data-target="20000" data-suffix=" m²">0</span>
+                                        <span class="project-stat-label">İnşaat Alanı</span>
+                                    </div>
+                                    <div class="project-stat-item">
+                                        <span class="project-stat-number counter-animate" data-target="11" data-suffix=" Ay">0</span>
+                                        <span class="project-stat-label">Teslim Süresi</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-detail-body">
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Proje Hakkında</h3>
+                                        <p>Havuz, sosyal tesis ve peyzajı ile tamamlanan Yaşamkent projesi, hem yaşam konforu hem de yüksek kira getirisi sunmaktadır. Dadson Elektrik olarak bu projenin komple elektrik tesisat, topraklama, aydınlatma ve güç dağıtım altyapısı taahhüt işlerini başarıyla gerçekleştirdik.</p>
+                                    </div>
+
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Proje Özellikleri</h3>
+                                        <ul class="project-detail-features">
+                                            <li>8 blok ve 312 daireden oluşmaktadır.</li>
+                                            <li>2+1 daireler ful eşyalı olarak hazırlanmıştır.</li>
+                                            <li>Kullanışlı daire tipleri ve ferah cepheleri ile yaşam konforunu ön plana çıkarmaktadır.</li>
+                                            <li>Yatırımcılara yüksek kira getirisi vadetmektedir.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="project-detail-two-col">
+                                        <div class="project-detail-section">
+                                            <h3 class="project-detail-section-title">Sosyal Tesisler</h3>
+                                            <ul class="project-detail-features">
+                                                <li>Havuz</li>
+                                                <li>Oyun parkı</li>
+                                                <li>Otopark</li>
+                                                <li>Yeşil alanlar</li>
+                                                <li>Çocuk oyun alanları</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="project-detail-section">
+                                            <h3 class="project-detail-section-title">Lokasyon Avantajları</h3>
+                                            <ul class="project-detail-features">
+                                                <li>Bursa'nın en seçkin semtlerinden birinde yer almaktadır.</li>
+                                                <li>Ulaşım imkanları oldukça kolaydır.</li>
+                                                <li>Market, okul, hastane gibi tüm ihtiyaçlara yakın konumdadır.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Elektrik Taahhüt Kapsamı</h3>
+                                        <ul class="project-detail-features">
+                                            <li>Komple elektrik tesisat projelendirme ve montaj</li>
+                                            <li>Temel topraklama sistemi (Cadweld ekzotermik kaynak)</li>
+                                            <li>Orta gerilim ve alçak gerilim pano montajı</li>
+                                            <li>İç ve dış aydınlatma altyapısı</li>
+                                            <li>Yangın algılama ve güvenlik sistemleri kablolama</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Photo Gallery -->
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Proje Görselleri</h3>
+                                        <div class="project-gallery" id="gallery-yasamkent">
+                                            <button class="gallery-nav gallery-prev" onclick="galleryNav('yasamkent', -1)">
+                                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                                            </button>
+                                            <div class="gallery-img-wrap">
+                                                <img class="gallery-img active" src="Images/Yaşamkent/1042936401.jpg" alt="Yaşamkent 1">
+                                                <img class="gallery-img" src="Images/Yaşamkent/1062970089.jpg" alt="Yaşamkent 2">
+                                                <img class="gallery-img" src="Images/Yaşamkent/1457256198.jpg" alt="Yaşamkent 3">
+                                                <img class="gallery-img" src="Images/Yaşamkent/1490527970.jpg" alt="Yaşamkent 4">
+                                                <img class="gallery-img" src="Images/Yaşamkent/173673265.jpg" alt="Yaşamkent 5">
+                                                <img class="gallery-img" src="Images/Yaşamkent/400570005.jpg" alt="Yaşamkent 6">
+                                                <img class="gallery-img" src="Images/Yaşamkent/873743382.jpg" alt="Yaşamkent 7">
+                                                <img class="gallery-img" src="Images/Yaşamkent/930263306.jpg" alt="Yaşamkent 8">
+                                            </div>
+                                            <button class="gallery-nav gallery-next" onclick="galleryNav('yasamkent', 1)">
+                                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                                            </button>
+                                            <div class="gallery-counter" id="gallery-counter-yasamkent">1 / 8</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PROJECT DETAIL MODAL: ESKAPET -->
+                        <div id="project-detail-eskapet" class="project-detail-modal" data-modal-id="eskapet">
+                            <div class="project-detail-backdrop" onclick="closeProjectDetail()"></div>
+                            <div class="project-detail-content">
+                                <div class="project-detail-topbar">
+                                    <button class="project-detail-back" onclick="closeProjectDetail()">
+                                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                                        Geri Dön
+                                    </button>
+                                </div>
+
+                                <div class="project-detail-hero">
+                                    <img src="Images/project_industrial.png" alt="Eskapet Fabrikası" class="project-detail-hero-img">
+                                    <div class="project-detail-hero-overlay">
+                                        <span class="project-detail-badge">Tamamlanan Proje</span>
+                                        <h2 class="project-detail-title">Eskapet Fabrikası</h2>
+                                        <p class="project-detail-location">
+                                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                            Bursa, Türkiye
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="project-detail-stats">
+                                    <div class="project-stat-item">
+                                        <span class="project-stat-number counter-animate" data-target="70000" data-suffix=" m²">0</span>
+                                        <span class="project-stat-label">İnşaat Alanı</span>
+                                    </div>
+                                    <div class="project-stat-item">
+                                        <span class="project-stat-number project-stat-text-sm">🏆</span>
+                                        <span class="project-stat-label">TR'nin En Büyük Pet Fabrikası</span>
+                                    </div>
+                                    <div class="project-stat-item">
+                                        <span class="project-stat-number counter-animate" data-target="26" data-suffix=" Ay">0</span>
+                                        <span class="project-stat-label">Teslim Süresi</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-detail-body">
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Proje Hakkında</h3>
+                                        <p>Eskapet, Türkiye'nin en büyük pet preform üretim tesisidir. 70.000 m² inşaat alanına sahip bu devasa endüstriyel tesisin komple elektrik tesisat, enerji dağıtım, aydınlatma ve otomasyon altyapısı Dadson Elektrik tarafından 26 ay gibi rekor bir sürede tamamlanmıştır.</p>
+                                    </div>
+
+                                    <!-- YouTube Video Link -->
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Proje Videosu</h3>
+                                        <a href="https://www.youtube.com/watch?v=rCgy6v8CXxE" target="_blank" rel="noopener noreferrer" class="project-video-link">
+                                            <div class="project-video-thumb">
+                                                <img src="https://img.youtube.com/vi/rCgy6v8CXxE/maxresdefault.jpg" alt="Eskapet Tanıtım Videosu" class="project-video-thumb-img">
+                                                <div class="project-video-play">
+                                                    <svg viewBox="0 0 24 24" width="48" height="48" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                                </div>
+                                            </div>
+                                            <span class="project-video-caption">YouTube'da İzle →</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Tesis Özellikleri</h3>
+                                        <ul class="project-detail-features">
+                                            <li>Türkiye'nin en büyük pet preform üretim tesisi</li>
+                                            <li>ISO 9001, ISO 14001, ISO 45001, ISO 50001 ve BRCGS sertifikalı tesis</li>
+                                            <li>Su, içecek, süt, meyve suyu ve yağ preformları üretim kapasitesi</li>
+                                            <li>Bio-PET ve R-PET ile çevre dostu üretim altyapısı</li>
+                                            <li>Uluslararası standartlarda üretim ve ihracat kapasitesi</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Elektrik Taahhüt Kapsamı</h3>
+                                        <ul class="project-detail-features">
+                                            <li>Komple elektrik tesisat projelendirme ve montaj</li>
+                                            <li>Orta gerilim (OG) trafo merkezi ve enerji dağıtım sistemi</li>
+                                            <li>Endüstriyel makine besleme ve otomasyon kablolama</li>
+                                            <li>İç ve dış aydınlatma sistemi kurulumu</li>
+                                            <li>Topraklama, paratoner ve yıldırımdan korunma sistemi</li>
+                                            <li>Yangın algılama, alarm ve güvenlik sistemleri altyapısı</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="project-detail-section">
+                                        <h3 class="project-detail-section-title">Proje Web Sitesi</h3>
+                                        <p><a href="https://www.eskapet.com/" target="_blank" rel="noopener noreferrer" class="project-detail-link">www.eskapet.com →</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 5. ELEKTRIK CAREER SUB-VIEW -->
+                <div id="elektrik-career-subview" class="elektrik-subview">
+                    <div class="contact-banner-header">
+                        <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Elektrik Career Banner">
+                        <div class="contact-banner-overlay"></div>
+                    </div>
+                    <div class="elektrik-page-wrapper">
+                        <div class="elektrik-header">
+                            <h1 class="elektrik-page-title" data-i18n="nav_el_career">KARİYER</h1>
+                            <p class="elektrik-page-subtitle" data-i18n="elektrik_career_empty_desc" style="opacity: 0.7; font-style: italic;">Kariyer fırsatları ve başvuru detayları yakında açıklanacaktır.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. ELEKTRIK CONTACT SUB-VIEW -->
+                <div id="elektrik-contact-subview" class="elektrik-subview">
+                    <div class="contact-banner-header">
+                        <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Elektrik Contact Banner">
+                        <div class="contact-banner-overlay"></div>
+                    </div>
+                    <div class="elektrik-page-wrapper">
+                        <div class="elektrik-header">
+                            <h1 class="elektrik-page-title" data-i18n="nav_el_contact">İLETİŞİM</h1>
+                            <p class="elektrik-page-subtitle" data-i18n="contact_subtitle">Küresel operasyonlarımız ve projelerimiz için bizimle doğrudan iletişime geçin.</p>
+                        </div>
+                        
+                        <div class="contact-grid-container" style="margin-top: 4rem;">
+                            <!-- Call Card -->
+                            <a href="tel:+905423576516" class="contact-action-card scroll-reveal stagger-1">
+                                <div class="contact-card-icon-wrap">
+                                    <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h3 class="contact-card-label" data-i18n="contact_call_title">Telefon</h3>
+                                <p class="contact-card-detail">+90 542 357 65 16</p>
+                                <span class="contact-card-action-btn" data-i18n="contact_call_desc">Bizi Arayın</span>
+                            </a>
+
+                            <!-- WhatsApp Card -->
+                            <a href="https://wa.me/905423576516?text=Merhabalar.%20Deste%C4%9Finize%20ihtiyac%C4%B1m%20var!" target="_blank" rel="noopener" class="contact-action-card scroll-reveal stagger-2">
+                                <div class="contact-card-icon-wrap">
+                                    <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h3 class="contact-card-label" data-i18n="contact_wa_title">WhatsApp</h3>
+                                <p class="contact-card-detail">+90 542 357 65 16</p>
+                                <span class="contact-card-action-btn" data-i18n="contact_wa_desc">Destek Hattı</span>
+                            </a>
+
+                            <!-- Email Card -->
+                            <a href="mailto:info@dadsongroup.com" class="contact-action-card scroll-reveal stagger-3">
+                                <div class="contact-card-icon-wrap">
+                                    <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <polyline points="22,6 12,13 2,6" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h3 class="contact-card-label" data-i18n="contact_mail_title">E-Posta</h3>
+                                <p class="contact-card-detail">info@dadsongroup.com</p>
+                                <span class="contact-card-action-btn" data-i18n="contact_mail_desc">E-Posta Gönderin</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==============================================
+             3. YAPI VIEW (Dadson Yapı)
+             ============================================== -->
+        <section id="yapi-view" class="page-view">
+            <!-- Content will be added here in Phase 5 -->
+        </section>
+
+        <!-- ==============================================
+             4. HAKKIMIZDA VIEW (About Us)
+             ============================================== -->
+        <section id="hakkimizda-view" class="page-view">
+            <!-- Kurumsal Top Banner Block -->
+            <div class="contact-banner-header">
+                <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Group Banner">
+                <div class="contact-banner-overlay"></div>
+            </div>
+            
+            <div class="about-page-wrapper">
+                <div class="about-header">
+                    <h1 class="about-page-title" data-i18n="about_hero_title">KURUMSAL</h1>
+                    <p class="about-page-intro" data-i18n="about_intro">Dadson GROUP; bünyesinde faaliyet gösteren Dadson Elektrik ve Dadson Yapı ile birlikte, farklı sektörlerde hizmet vermeye açık, güçlü ticari iş birliklerini hedefleyen küresel bir ticaret oluşumudur. Kurumsallaşmayı, sürdürülebilir büyümeyi ve sektörler arası sinerjiyi esas alan Dadson GROUP; girişimcilere, yatırımcılara ve işini büyütmek isteyen profesyonellere ortak bir vizyon çatısı sunmaktadır. Güven, disiplin, kalite ve stratejik iş geliştirme anlayışıyla hareket eden şirketimiz; yerel başarılarını uluslararası ölçekte büyütmeyi hedefleyen modern bir ticaret ekosistemi oluşturmaktadır.</p>
+                </div>
+
+                <!-- Story Section: Full Width -->
+                <div class="about-story-section">
+                    <div class="about-story-grid">
+                        <div class="about-story-text">
+                            <h2 class="about-section-title" data-i18n="about_history_title">Tarihçemiz</h2>
+                            <p class="about-p" data-i18n="about_story_p1">1906 yılında, Tarsus Elektrik Santrali yapım ve taahhüt faaliyetleriyle ticari hayatına başlayan DEMİRBAŞ ailesi, Türkiye’nin enerji ve yapı sektöründe bir asrı aşan köklü geçmişiyle güvenin, istikrarın ve mühendislik disiplininin sembolü hâline gelmiştir. Nesiller boyunca süregelen bu büyük miras; yalnızca ticari başarılarla değil, aynı zamanda ülkenin kalkınmasına katkı sağlayan vizyoner projeler, sürdürülebilir iş anlayışı ve tavizsiz kalite politikasıyla inşa edilmiştir.</p>
+                            <p class="about-p" data-i18n="about_story_p2">Bir yüzyılı aşkın süredir faaliyet gösterdiği her alanda yüksek mühendislik standartlarını, etik ticaret anlayışını ve kusursuz iş disiplinini temel prensip olarak benimseyen DEMİRBAŞ ailesi; enerji, elektrik taahhüt ve yapı sektörlerinde gerçekleştirdiği sayısız projeyle sektörde saygın ve güvenilir bir konum elde etmiştir. Özellikle 1990–2024 yılları arasında elektrik taahhüt sektöründe üstlendiği projelerle; kalite, teknik yeterlilik, profesyonel organizasyon yapısı ve çözüm odaklı yaklaşımı sayesinde sektörün öncü ailelerinden biri olarak anılmıştır.</p>
+                            <p class="about-p" data-i18n="about_story_p3">Kökleri geçmişin güçlü tecrübelerine dayanan bu aile mirası, 2022 yılında dördüncü nesil temsilci Yusuf Eren DEMİRBAŞ liderliğinde yeni bir döneme taşınmıştır. Yenilikçi düşünce yapısı, modern yönetim anlayışı ve global vizyonu ile hareket eden genç girişimci; nesillerdir babadan oğula aktarılan bu büyük birikimi çağın ihtiyaçlarına uygun şekilde yeniden yapılandırarak DADSON GROUP COMPANY markasını hayata geçirmiştir. Şirketin ismi; aile bağlarını, sadakati, devamlılığı ve nesiller arası aktarımı simgeleyen “Dad & Son” kavramından ilham alınarak oluşturulmuştur. Bu isim yalnızca bir marka değil; köklü bir geçmişin, güçlü bir aidiyetin ve geleceğe taşınan büyük bir vizyonun temsilidir.</p>
+                            <p class="about-p" data-i18n="about_story_p4">DADSON GROUP COMPANY, geçmişten gelen mühendislik tecrübesini modern dünyanın inovatif iş modelleriyle birleştirerek faaliyet alanını yalnızca elektrik taahhüt hizmetleriyle sınırlı tutmamış; yapı, enerji, proje yönetimi, mühendislik ve yatırım alanlarında da güçlü bir ekosistem oluşturmayı hedeflemiştir. Şirket; teknik yeterliliği, kurumsal organizasyon yapısı ve sürdürülebilir büyüme stratejileriyle sektöründe yalnızca hizmet üreten bir yapı değil, aynı zamanda güven inşa eden bir marka olmayı amaçlamaktadır.</p>
+                            <p class="about-p" data-i18n="about_story_p5">Bugün DADSON GROUP COMPANY; kalite, güvenilirlik, prestij ve profesyonellik ilkelerini merkezine alan kurumsal yaklaşımıyla, geleceğin yapı ve enerji projelerine yön veren güçlü bir organizasyon olarak faaliyetlerini sürdürmektedir. Her projede estetik, mühendislik ve fonksiyonelliği bir araya getiren şirket; yalnızca bugünün ihtiyaçlarını karşılayan değil, geleceğin standartlarını belirleyen projeler üretmeyi hedeflemektedir.</p>
+                            <p class="about-p" data-i18n="about_story_p6">DADSON GROUP COMPANY’nin temel vizyonu; enerji ve yapı sektöründe ulusal ve uluslararası ölçekte saygın, öncü ve sürdürülebilir bir marka hâline gelmek, yüksek kalite anlayışıyla sektör standartlarını yeniden tanımlamaktır. Misyonu ise; güvenilir iş ortaklıkları kurarak, yenilikçi çözümler geliştirerek ve mühendislik disiplinden ödün vermeden şirketlere, yatırımcılara ve girişimcilere değer katmaktır.</p>
+                            <p class="about-p" data-i18n="about_story_p7">Bir asrı aşan aile mirasının verdiği güçle hareket eden DADSON GROUP COMPANY, geçmişinden aldığı köklü tecrübeyi geleceğin vizyonuyla birleştirerek; yalnızca projeler inşa etmeyi değil, kalıcı değerler üretmeyi hedeflemektedir. Çünkü DADSON için başarı; yalnızca tamamlanan projelerle değil, ardında bırakılan güven, itibar ve sürdürülebilir mirasla ölçülmektedir.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- ==============================================
+             5. CONTACT VIEW (İletişim)
+             ============================================== -->
+        <section id="contact-view" class="page-view">
+            <!-- Contact Top Banner Block -->
+            <div class="contact-banner-header">
+                <img class="contact-banner-img" src="Images/Banner.jpeg" alt="Dadson Group Banner">
+                <div class="contact-banner-overlay"></div>
+            </div>
+            
+            <div class="contact-page-wrapper">
+                <div class="contact-header">
+                    <h1 class="contact-page-title" data-i18n="contact_title">İLETİŞİM</h1>
+                    <p class="contact-page-subtitle" data-i18n="contact_subtitle">Küresel operasyonlarımız ve projelerimiz için bizimle doğrudan iletişime geçin.</p>
+                </div>
+                
+                <div class="contact-grid-container">
+                    <!-- Call Card -->
+                    <a href="tel:+905423576516" class="contact-action-card scroll-reveal stagger-1">
+                        <div class="contact-card-icon-wrap">
+                            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-card-label" data-i18n="contact_call_title">Telefon</h3>
+                        <p class="contact-card-detail">+90 542 357 65 16</p>
+                        <span class="contact-card-action-btn" data-i18n="contact_call_desc">Bizi Arayın</span>
+                    </a>
+
+                    <!-- WhatsApp Card -->
+                    <a href="https://wa.me/905423576516?text=Merhabalar.%20Deste%C4%9Finize%20ihtiyac%C4%B1m%20var!" target="_blank" rel="noopener" class="contact-action-card scroll-reveal stagger-2">
+                        <div class="contact-card-icon-wrap">
+                            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-card-label" data-i18n="contact_wa_title">WhatsApp</h3>
+                        <p class="contact-card-detail">+90 542 357 65 16</p>
+                        <span class="contact-card-action-btn" data-i18n="contact_wa_desc">Destek Hattı</span>
+                    </a>
+
+                    <!-- Email Card -->
+                    <a href="mailto:info@dadsongroup.com" class="contact-action-card scroll-reveal stagger-3">
+                        <div class="contact-card-icon-wrap">
+                            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                                <polyline points="22,6 12,13 2,6" stroke="url(#gold-grad-trans)" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-card-label" data-i18n="contact_mail_title">E-Posta</h3>
+                        <p class="contact-card-detail">info@dadsongroup.com</p>
+                        <span class="contact-card-action-btn" data-i18n="contact_mail_desc">E-Posta Gönderin</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="brand-logo">
+                    <img src="Images/Logo.png" alt="Dadson Group Logo" class="brand-logo-img-footer">
+                </div>
+                <p class="footer-tagline" data-i18n="footer_tagline">Küresel Ölçekte Güç, Güven ve Modern Mühendislik Çözümleri.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4 data-i18n="footer_corp">Kurumsal</h4>
+                <ul>
+                    <li><a href="#hakkimizda" data-i18n="footer_about">Hakkımızda</a></li>
+                    <li><a href="#hakkimizda" data-i18n="footer_vision">Vizyon & Misyon</a></li>
+                    <li><a href="#hakkimizda" data-i18n="footer_contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_rights">&copy; 2026 Dadson Group. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Elektrik Custom Footer (Direct Body Child) -->
+    <footer class="elektrik-footer" style="display: none;">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="brand-logo">
+                    <img src="Images/Logo.png" alt="Dadson Elektrik Logo" class="brand-logo-img-footer">
+                </div>
+                <p class="footer-tagline" data-i18n="footer_tagline">Küresel Ölçekte Güç, Güven ve Modern Mühendislik Çözümleri.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4 data-i18n="footer_corp">Kurumsal</h4>
+                <ul>
+                    <li><a href="#elektrik-about" data-i18n="footer_about">Hakkımızda</a></li>
+                    <li><a href="#elektrik-about" data-i18n="footer_vision">Vizyon & Misyon</a></li>
+                    <li><a href="#elektrik-contact" data-i18n="footer_contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_rights">&copy; 2026 Dadson Elektrik. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Cursor elements for desktops -->
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-outline" id="cursor-outline"></div>
+
+    <!-- Custom Script -->
+    <script src="js/app.js"></script>
+</body>
+</html>
