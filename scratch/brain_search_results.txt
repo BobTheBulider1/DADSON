@@ -1,0 +1,1136 @@
+[
+  {
+    "file": ".system_generated\\messages\\79bd4a74-16a3-4d80-a20b-e1c26bbeb694.json",
+    "line": 1,
+    "keyword": "ges",
+    "content": "{\"id\":\"79bd4a74-16a3-4d80-a20b-e1c26bbeb694\", \"recipient\":\"b4757362-a0a4-472c-bcaf-aa0c8ae43091\", \"sender\":\"b4757362-a0a4-472c-bcaf-aa0c8ae43091/task-"
+  },
+  {
+    "file": ".system_generated\\messages\\ef1ed362-3a3e-4666-8c5a-13803239f24b.json",
+    "line": 1,
+    "keyword": "yda",
+    "content": "{\"id\":\"ef1ed362-3a3e-4666-8c5a-13803239f24b\", \"recipient\":\"b4757362-a0a4-472c-bcaf-aa0c8ae43091\", \"sender\":\"b4757362-a0a4-472c-bcaf-aa0c8ae43091/task-"
+  },
+  {
+    "file": ".system_generated\\messages\\ef1ed362-3a3e-4666-8c5a-13803239f24b.json",
+    "line": 1,
+    "keyword": "ges",
+    "content": "{\"id\":\"ef1ed362-3a3e-4666-8c5a-13803239f24b\", \"recipient\":\"b4757362-a0a4-472c-bcaf-aa0c8ae43091\", \"sender\":\"b4757362-a0a4-472c-bcaf-aa0c8ae43091/task-"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 58,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"246643\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 96,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"30737\" data-sjs>{\"require\":[[\"ScheduledServerJSWithCSS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:69"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 58,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"246643\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 107,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"37477\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 116,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"179015\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 39,
+    "keyword": "ges",
+    "content": "</head><body class=\"_ar45 system-fonts--body\"><div id=\"splash-screen\" style=\"position:fixed;z-index:100;top:0;left:0;width:100%;height:100%\"><style ty"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 58,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"246643\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 74,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"120563\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040432029},"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 92,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"55589\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040432029},\""
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 96,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"30737\" data-sjs>{\"require\":[[\"ScheduledServerJSWithCSS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:69"
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 107,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"37477\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": ".system_generated\\steps\\1912\\content.md",
+    "line": 116,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"179015\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 43,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"158437\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 103,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"31759\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:567\",[\"Sa"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 43,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"158437\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 113,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"35038\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 120,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"177070\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 43,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"158437\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 52,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"137339\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040480565},"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 54,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"83762\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:4474\",[\"P"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 101,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"29125\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040480565},\""
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 103,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"31759\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:567\",[\"Sa"
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 113,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"35038\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": ".system_generated\\steps\\3033\\content.md",
+    "line": 120,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"177070\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 59,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"247157\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 97,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"30737\" data-sjs>{\"require\":[[\"ScheduledServerJSWithCSS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:69"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 59,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"247157\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 108,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"37485\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 117,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"179526\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 40,
+    "keyword": "ges",
+    "content": "</head><body class=\"_ar45 system-fonts--body\"><div id=\"splash-screen\" style=\"position:fixed;z-index:100;top:0;left:0;width:100%;height:100%\"><style ty"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 59,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"247157\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 75,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"122016\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040480565},"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 93,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"56503\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040480565},\""
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 97,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"30737\" data-sjs>{\"require\":[[\"ScheduledServerJSWithCSS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:69"
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 108,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"37485\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": ".system_generated\\steps\\3141\\content.md",
+    "line": 117,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"179526\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": "implementation_plan.md",
+    "line": 12,
+    "keyword": "ges",
+    "content": "> - **Filtering Support**: Category filters (`Tümü`, `Tamamlanan`, `Devam Eden`) will dynamically refresh the slider, repositioning the active slide a"
+  },
+  {
+    "file": "implementation_plan.md",
+    "line": 14,
+    "keyword": "ges",
+    "content": ">   - **Desktop**: Interactive side clicks (clicking any background card centers it), Left/Right arrow keys, drag-to-slide mouse gestures, and navigat"
+  },
+  {
+    "file": "implementation_plan.md",
+    "line": 15,
+    "keyword": "ges",
+    "content": ">   - **Mobile**: Touch swipe gestures, navigation buttons, and responsive pagination dots."
+  },
+  {
+    "file": "implementation_plan.md",
+    "line": 20,
+    "keyword": "ges",
+    "content": "## Proposed Changes"
+  },
+  {
+    "file": "implementation_plan.md",
+    "line": 41,
+    "keyword": "ges",
+    "content": "3. Bind navigation buttons, click handlers on side cards to make them active, and mouse/touch drag/swipe gesture listeners."
+  },
+  {
+    "file": "implementation_plan.md",
+    "line": 60,
+    "keyword": "ges",
+    "content": "6. Toggle languages and check translations."
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 27,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p1: \"Yusuf Eren Demirbaş, 2000 yılında Adana’da doğmuş olup, ortaokul ve lise tahsilini Bursa'da, üniversite eğitimini Eskişehir Osmangaz"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 30,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p4: \"Bursa'da yaşayan Yusuf Eren DEMİRBAŞ çeşitli dernek ve kuruluşlarda üyeliği ve yöneticiliği bulunmaktadır.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 67,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p1: \"Yusuf Eren Demirbaş was born in Adana in 2000. He completed his middle and high school education in Bursa, and his university educat"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 70,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p4: \"Residing in Bursa, Yusuf Eren DEMİRBAŞ holds memberships and executive roles in various associations and organizations.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 227,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p1: \"Yusuf Eren Demirbaş est né à Adana en 2000. Il a fait ses études secondaires à Bursa et ses études universitaires en économie à l'Un"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 230,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p4: \"Résidant à Bursa, Yusuf Eren Demirbaş est membre et administrateur de diverses associations et organisations.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 267,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p1: \"Yusuf Eren Demirbaş è nato ad Adana nel 2000. Ha completato gli studi secondari a Bursa e si è laureato in Economia presso l'Univers"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 270,
+    "keyword": "bursa",
+    "content": "el_about_ceo_p4: \"Residente a Bursa, Yusuf Eren Demirbaş è membro e consigliere di diverse associazioni e organizzazioni di categoria.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 22,
+    "keyword": "taahhüt",
+    "content": "el_about_history_p2: \"Bu güçlü birikimin modern vizyonla birleşmesi sonucunda, 2022 yılında Yusuf Eren Demirbaş liderliğinde kurulan Dadson Elektrik; "
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 29,
+    "keyword": "taahhüt",
+    "content": "el_about_ceo_p3: \"Yusuf Eren DEMİRBAŞ, 2021 yılına kadar ortağı ve yönetim kurulu üyesi olduğu Güney Gerilim Elektrik İnşaat Taah. Tic. ve San. LTD. Ş"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 33,
+    "keyword": "taahhüt",
+    "content": "el_about_mission_p2: \"Üç kuşaktan gelen mesleki birikimimizi modern mühendislik anlayışıyla harmanlayarak; elektrik taahhüt, enerji sistemleri, aydınl"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 37,
+    "keyword": "taahhüt",
+    "content": "el_about_goals_li1: \"Türkiye’nin önde gelen elektrik taahhüt firmalarından biri olarak, global pazarda sürdürülebilir büyüme sağlayan uluslararası bir"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 39,
+    "keyword": "taahhüt",
+    "content": "el_about_goals_li3: \"Elektrik taahhüt, güneş enerjisi sistemleri, akıllı bina teknolojileri ve endüstriyel otomasyon alanlarında yüksek mühendislik st"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 69,
+    "keyword": "taahhüt",
+    "content": "el_about_ceo_p3: \"Until 2021, Yusuf Eren DEMİRBAŞ worked at Güney Gerilim Elektrik İnşaat Taah. Tic. ve San. LTD. ŞTİ, where he was a partner and boar"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 149,
+    "keyword": "taahhüt",
+    "content": "el_about_ceo_p3: \"2021 წლამდე იუსუფ ერენ დემირბაში მუშაობდა Güney Gerilim Elektrik İnşaat Taah. Tic. ve San. LTD. ŞTİ-ში პარტნიორად და საბჭოს წევრად. "
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 189,
+    "keyword": "taahhüt",
+    "content": "el_about_ceo_p3: \"До 2021 года Юсуф Эрен Демирбаш работал в компании Güney Gerilim Elektrik İnşaat Taah. Tic. ve San. LTD. ŞTİ в качестве партнера и ч"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 229,
+    "keyword": "taahhüt",
+    "content": "el_about_ceo_p3: \"Jusqu'en 2021, Yusuf Eren Demirbaş a collaboré au sein de Güney Gerilim Elektrik İnşaat Taah. Tic. ve San. LTD. ŞTİ en tant qu'assoc"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 269,
+    "keyword": "taahhüt",
+    "content": "el_about_ceo_p3: \"Fino al 2021, Yusuf Eren Demirbaş ha lavorato come socio e membro del consiglio di amministrazione presso Güney Gerilim Elektrik İnş"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 38,
+    "keyword": "ges",
+    "content": "el_about_goals_li2: \"Avrupa, Orta Doğu, Körfez Bölgesi, Afrika ve Türk Cumhuriyetleri başta olmak üzere uluslararası projelerde aktif rol almak ve str"
+  },
+  {
+    "file": "scratch\\add_elektrik_about_translations.js",
+    "line": 42,
+    "keyword": "ges",
+    "content": "el_about_goals_li6: \"Uluslararası kalite standartlarına uygun, güvenli ve uzun ömürlü projelerle sektörde güvenin ve prestijin simgesi haline gelmek.\""
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 22,
+    "keyword": "metro",
+    "content": "elektrik_srv_4_desc: \"Metro hatları sinyalizasyon kablolaması, tünel elektrifikasyonu ve cer gücü sistemleri.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 33,
+    "keyword": "metro",
+    "content": "elektrik_proj_1_title: \"M10 Metro Hattı Elektrik İşleri\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 61,
+    "keyword": "metro",
+    "content": "elektrik_srv_4_desc: \"Metro lines signaling cabling, tunnel electrification and traction power systems.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 72,
+    "keyword": "metro",
+    "content": "elektrik_proj_1_title: \"M10 Metro Line Electrical Works\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 256,
+    "keyword": "metro",
+    "content": "elektrik_srv_4_desc: \"Cablaggio di segnalamento per linee metropolitane, elettrificazione di tunnel e sistemi di trazione elettrica.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 267,
+    "keyword": "metro",
+    "content": "elektrik_proj_1_title: \"Lavori elettrici della linea metropolitana M10\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 9,
+    "keyword": "taahhüt",
+    "content": "elektrik_intro: \"Küresel standartlarda yüksek mühendislik ve anahtar teslim elektrik taahhüt çözümleri.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 34,
+    "keyword": "taahhüt",
+    "content": "elektrik_proj_1_desc: \"Tüm istasyonların ve tünellerin orta gerilim, alçak gerilim ve zayıf akım sistemleri mühendislik ve taahhüt montajı.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 40,
+    "keyword": "taahhüt",
+    "content": "elektrik_proj_3_desc: \"Tüm üretim hatlarının busbar dağıtımı, AG dağıtım panoları ve OG şebeke bağlantılarının taahhüt işleri.\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 24,
+    "keyword": "ges",
+    "content": "elektrik_solar_title: \"Güneş Enerjisi (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 25,
+    "keyword": "ges",
+    "content": "elektrik_solar_desc: \"Dadson Elektrik olarak, yenilenebilir enerji yatırımlarınız için çatı ve arazi tipi Güneş Enerji Santrallerinin (GES) mühendisli"
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 36,
+    "keyword": "ges",
+    "content": "elektrik_proj_2_title: \"12 MWp Çatı GES Kurulumu\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 102,
+    "keyword": "ges",
+    "content": "elektrik_solar_title: \"الطاقة الشمسية (GES)\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 141,
+    "keyword": "ges",
+    "content": "elektrik_solar_title: \"მზის ენერგია (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 142,
+    "keyword": "ges",
+    "content": "elektrik_solar_desc: \"როგორც Dadson Electric, ჩვენ ვახორციელებთ მზის ელექტროსადგურების (GES) საინჟინრო, შესყიდვებისა და მშენებლობის (EPC) პროცესებს სა"
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 219,
+    "keyword": "ges",
+    "content": "elektrik_solar_title: \"Énergie solaire (Centrales GES)\","
+  },
+  {
+    "file": "scratch\\add_elektrik_translations.js",
+    "line": 258,
+    "keyword": "ges",
+    "content": "elektrik_solar_title: \"Energia solare (Impianti GES)\","
+  },
+  {
+    "file": "scratch\\add_scopes_translations.js",
+    "line": 14,
+    "keyword": "taahhüt",
+    "content": "el_scope_1_4: \"Fabrika, Endüstriyel Tesis ve Konut Elektrik Taahhüt İşleri\","
+  },
+  {
+    "file": "scratch\\add_scopes_translations.js",
+    "line": 23,
+    "keyword": "ges",
+    "content": "el_scope_4_1: \"Çatı Tipi GES Kurulumu ve Mühendisliği (Fabrikalar, Depolar, Evler)\","
+  },
+  {
+    "file": "scratch\\add_scopes_translations.js",
+    "line": 24,
+    "keyword": "ges",
+    "content": "el_scope_4_2: \"Arazi Tipi GES Santralleri Projelendirme ve Saha Kurulumu\","
+  },
+  {
+    "file": "scratch\\add_scopes_translations.js",
+    "line": 109,
+    "keyword": "ges",
+    "content": "el_scope_3_1: \"Conception et installation de domotique et gestion technique de bâtiment (KNX)\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 11,
+    "keyword": "taahhüt",
+    "content": "el_service_1_title: \"Elektrik Taahhüt\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 17,
+    "keyword": "ges",
+    "content": "el_service_4_title: \"Güneş Enerjisi (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 43,
+    "keyword": "ges",
+    "content": "el_service_4_title: \"الطاقة الشمسية (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 56,
+    "keyword": "ges",
+    "content": "el_service_4_title: \"მზის ენერგია (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 69,
+    "keyword": "ges",
+    "content": "el_service_4_title: \"Солнечная энергия (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 82,
+    "keyword": "ges",
+    "content": "el_service_4_title: \"Énergie Solaire (Solar GES)\","
+  },
+  {
+    "file": "scratch\\add_services_translations.js",
+    "line": 95,
+    "keyword": "ges",
+    "content": "el_service_4_title: \"Energia Solare (Solar GES)\","
+  },
+  {
+    "file": "scratch\\align_ceo_names.js",
+    "line": 73,
+    "keyword": "ges",
+    "content": "console.log(\"No changes were made to app.js.\");"
+  },
+  {
+    "file": "scratch\\align_ceo_names.js.metadata.json",
+    "line": 3,
+    "keyword": "ges",
+    "content": "\"summary\":  \"Scratch script to programmatically search and replace CEO names inside js/app.js to ensure consistent Latin representation Eren DEMİRBAŞ "
+  },
+  {
+    "file": "scratch\\analyze_extracted_text.js",
+    "line": 98,
+    "keyword": "taahhüt",
+    "content": "if (/proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|işler|yapılan/i.test(p)) {"
+  },
+  {
+    "file": "scratch\\analyze_extracted_text.js",
+    "line": 98,
+    "keyword": "ges",
+    "content": "if (/proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|işler|yapılan/i.test(p)) {"
+  },
+  {
+    "file": "scratch\\check_all_translations.js",
+    "line": 40,
+    "keyword": "ges",
+    "content": "const languages = ['tr', 'en', 'ar', 'ka', 'ru', 'fr', 'it'];"
+  },
+  {
+    "file": "scratch\\check_all_translations.js",
+    "line": 60,
+    "keyword": "ges",
+    "content": "languages.forEach(lang => {"
+  },
+  {
+    "file": "scratch\\check_all_translations.js.metadata.json",
+    "line": 3,
+    "keyword": "ges",
+    "content": "\"summary\":  \"Verify if all project translation keys are present in all 7 languages inside js/app.js\","
+  },
+  {
+    "file": "scratch\\dump_insta_json.js",
+    "line": 11,
+    "keyword": "bursa",
+    "content": "if (script.includes('Ertuğrul') || script.includes('Nilüfer') || script.includes('bursa') || script.includes('posts') || script.includes('18')) {"
+  },
+  {
+    "file": "scratch\\extracted_pdf_text.txt",
+    "line": 341,
+    "keyword": "ges",
+    "content": "%!PS-Adobe-3.0 \r%%Creator: Adobe Illustrator(R) 24.0\r%%AI8_CreatorVersion: 29.1.0\r%%For: (Sinan) ()\r%%Title: (111 2.ai)\r%%CreationDate: 17.01.2025 00:"
+  },
+  {
+    "file": "scratch\\extract_all_pages.js",
+    "line": 15,
+    "keyword": "ges",
+    "content": "console.log(`=== TOTAL PAGES: ${result.pages.length} ===`);"
+  },
+  {
+    "file": "scratch\\extract_all_pages.js",
+    "line": 16,
+    "keyword": "ges",
+    "content": "result.pages.forEach((page, idx) => {"
+  },
+  {
+    "file": "scratch\\extract_clean_sentences.js",
+    "line": 44,
+    "keyword": "bursa",
+    "content": "if (/proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|proje|tamam|bursa/i.test(l)) {"
+  },
+  {
+    "file": "scratch\\extract_clean_sentences.js",
+    "line": 44,
+    "keyword": "taahhüt",
+    "content": "if (/proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|proje|tamam|bursa/i.test(l)) {"
+  },
+  {
+    "file": "scratch\\extract_clean_sentences.js",
+    "line": 44,
+    "keyword": "ges",
+    "content": "if (/proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|proje|tamam|bursa/i.test(l)) {"
+  },
+  {
+    "file": "scratch\\extract_insta_details.js",
+    "line": 13,
+    "keyword": "ges",
+    "content": "// Find alt attributes in images or videos"
+  },
+  {
+    "file": "scratch\\find_all_occurrences.js",
+    "line": 15,
+    "keyword": "taahhüt",
+    "content": "\"Taahhüt\", \"Taahh\\\\u00fct\", \"Taahh&#xfc;t\","
+  },
+  {
+    "file": "scratch\\get_png_dim.js",
+    "line": 4,
+    "keyword": "ges",
+    "content": "const imgPath = 'c:/Users/İbrahim MATARMAVI/Desktop/İŞLER/DADSON ELEKTRİK/Images/DADSON.png';"
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 121,
+    "keyword": "ges",
+    "content": "el_service_proje_menu: \"Gestion de Projets\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 123,
+    "keyword": "ges",
+    "content": "el_service_5_title: \"Gestion de Projets\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 124,
+    "keyword": "ges",
+    "content": "el_service_5_desc: \"Gestion de projet experte et conseil pour les projets électriques et énergétiques complexes, de la conception à la livraison.\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 125,
+    "keyword": "ges",
+    "content": "el_service_5_title_long: \"SERVICES DE GESTION DE PROJETS\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 126,
+    "keyword": "ges",
+    "content": "el_service_5_desc_long_1: \"Chez Dadson Électricité, nous coordonnons tous les processus des projets électriques et énergétiques complexes, de la phase"
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 127,
+    "keyword": "ges",
+    "content": "el_service_5_desc_long_2: \"Nous assurons toute la coordination pour le compte de nos clients, de la gestion de chantier au contrôle de la chaîne d'app"
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 129,
+    "keyword": "ges",
+    "content": "el_scope_5_2: \"Gestion du budget, contrôle des coûts et planification\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 143,
+    "keyword": "ges",
+    "content": "el_service_proje_menu: \"Gestione Progetti\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 145,
+    "keyword": "ges",
+    "content": "el_service_5_title: \"Gestione Progetti\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 146,
+    "keyword": "ges",
+    "content": "el_service_5_desc: \"Gestione progetti e consulenza professionale per progetti elettrici ed energetici complessi, dalla progettazione alla consegna chi"
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 147,
+    "keyword": "ges",
+    "content": "el_service_5_title_long: \"SERVIZI DI GESTIONE PROGETTI\","
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 149,
+    "keyword": "ges",
+    "content": "el_service_5_desc_long_2: \"Ci occupiamo di tutta la coordinazione per conto dei nostri committenti, dalla gestione del cantiere al controllo della cat"
+  },
+  {
+    "file": "scratch\\inject_new_services.js",
+    "line": 151,
+    "keyword": "ges",
+    "content": "el_scope_5_2: \"Gestione del budget, controllo dei costi e pianificazione\","
+  },
+  {
+    "file": "scratch\\inspect_context.js",
+    "line": 9,
+    "keyword": "bursa",
+    "content": "const keywords = [\"Aydınlatma\", \"Otomasyon\", \"Güneş\", \"Taahhüt\", \"proje\", \"Bursa\", \"Demirbaş\"];"
+  },
+  {
+    "file": "scratch\\inspect_context.js",
+    "line": 9,
+    "keyword": "taahhüt",
+    "content": "const keywords = [\"Aydınlatma\", \"Otomasyon\", \"Güneş\", \"Taahhüt\", \"proje\", \"Bursa\", \"Demirbaş\"];"
+  },
+  {
+    "file": "scratch\\package-lock.json",
+    "line": 5,
+    "keyword": "ges",
+    "content": "\"packages\": {"
+  },
+  {
+    "file": "scratch\\parse_instagram.js",
+    "line": 14,
+    "keyword": "ges",
+    "content": "// \"edge_owner_to_timeline_media\":{\"edges\":[{\"node\":{\"text\":\"...\"}}]}"
+  },
+  {
+    "file": "scratch\\parse_instagram.js",
+    "line": 24,
+    "keyword": "ges",
+    "content": "// Let's extract post texts. They are usually under: \"edge_owner_to_timeline_media\" -> \"edges\" -> \"node\" -> \"edge_media_to_caption\" -> \"edges\" -> \"nod"
+  },
+  {
+    "file": "scratch\\parse_instagram_profile.js",
+    "line": 22,
+    "keyword": "ges",
+    "content": "const regex = /\"edge_owner_to_timeline_media\":[\\s\\S]*?\"edges\":\\s*\\[([\\s\\S]*?)\\]\\}/gi;"
+  },
+  {
+    "file": "scratch\\parse_instagram_profile.js",
+    "line": 25,
+    "keyword": "ges",
+    "content": "console.log('Found timeline media edges!');"
+  },
+  {
+    "file": "scratch\\parse_pdf_lib.js",
+    "line": 31,
+    "keyword": "bursa",
+    "content": "if (clean.length > 5 && /proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|yapılan|bursa/i.test(clean)) {"
+  },
+  {
+    "file": "scratch\\parse_pdf_lib.js",
+    "line": 31,
+    "keyword": "taahhüt",
+    "content": "if (clean.length > 5 && /proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|yapılan|bursa/i.test(clean)) {"
+  },
+  {
+    "file": "scratch\\parse_pdf_lib.js",
+    "line": 17,
+    "keyword": "ges",
+    "content": "console.log(\"  Pages:\", data.numpages);"
+  },
+  {
+    "file": "scratch\\parse_pdf_lib.js",
+    "line": 31,
+    "keyword": "ges",
+    "content": "if (clean.length > 5 && /proj|referan|taahhüt|ges|solar|aydınlatma|kurulum|yapılan|bursa/i.test(clean)) {"
+  },
+  {
+    "file": "scratch\\script_41.txt",
+    "line": 1,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"247157\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": "scratch\\script_41.txt",
+    "line": 1,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"247157\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": "scratch\\script_41.txt",
+    "line": 1,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"247157\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"R"
+  },
+  {
+    "file": "scratch\\script_51.txt",
+    "line": 1,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"122016\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040480565},"
+  },
+  {
+    "file": "scratch\\script_61.txt",
+    "line": 1,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"56503\" data-sjs>{\"require\":[[\"Bootloader\",\"handlePayload\",null,[{\"consistency\":{\"rev\":1040480565},\""
+  },
+  {
+    "file": "scratch\\script_63.txt",
+    "line": 1,
+    "keyword": "metro",
+    "content": "<script type=\"application/json\"  data-content-len=\"30737\" data-sjs>{\"require\":[[\"ScheduledServerJSWithCSS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:69"
+  },
+  {
+    "file": "scratch\\script_63.txt",
+    "line": 1,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"30737\" data-sjs>{\"require\":[[\"ScheduledServerJSWithCSS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:69"
+  },
+  {
+    "file": "scratch\\script_71.txt",
+    "line": 1,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"37485\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": "scratch\\script_71.txt",
+    "line": 1,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"37485\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\","
+  },
+  {
+    "file": "scratch\\script_77.txt",
+    "line": 1,
+    "keyword": "yda",
+    "content": "<script type=\"application/json\"  data-content-len=\"179526\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": "scratch\\script_77.txt",
+    "line": 1,
+    "keyword": "ges",
+    "content": "<script type=\"application/json\"  data-content-len=\"179526\" data-sjs>{\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"require\":[[\"AsyncData\""
+  },
+  {
+    "file": "scratch\\search_instagram_posts.js",
+    "line": 39,
+    "keyword": "bursa",
+    "content": "const trKws = ['ges', 'aydınlatma', 'otomasyon', 'taahhüt', 'bursa', 'demirbaş', 'özel', 'villa', 'otel', 'fabrika', 'şantiye'];"
+  },
+  {
+    "file": "scratch\\search_instagram_posts.js",
+    "line": 39,
+    "keyword": "taahhüt",
+    "content": "const trKws = ['ges', 'aydınlatma', 'otomasyon', 'taahhüt', 'bursa', 'demirbaş', 'özel', 'villa', 'otel', 'fabrika', 'şantiye'];"
+  },
+  {
+    "file": "scratch\\search_instagram_posts.js",
+    "line": 39,
+    "keyword": "ges",
+    "content": "const trKws = ['ges', 'aydınlatma', 'otomasyon', 'taahhüt', 'bursa', 'demirbaş', 'özel', 'villa', 'otel', 'fabrika', 'şantiye'];"
+  },
+  {
+    "file": "scratch\\search_large_scripts.js",
+    "line": 20,
+    "keyword": "bursa",
+    "content": "if (/taahhüt|proje|aydınlatma|ges|enerji|bursa|elektrik|sistem/i.test(text)) {"
+  },
+  {
+    "file": "scratch\\search_large_scripts.js",
+    "line": 20,
+    "keyword": "taahhüt",
+    "content": "if (/taahhüt|proje|aydınlatma|ges|enerji|bursa|elektrik|sistem/i.test(text)) {"
+  },
+  {
+    "file": "scratch\\search_large_scripts.js",
+    "line": 20,
+    "keyword": "ges",
+    "content": "if (/taahhüt|proje|aydınlatma|ges|enerji|bursa|elektrik|sistem/i.test(text)) {"
+  },
+  {
+    "file": "scratch\\search_raw_captions.js",
+    "line": 10,
+    "keyword": "taahhüt",
+    "content": "// Check if the line has Turkish words like Proje, Elektrik, Taahhüt, Aydınlatma, veya, Tarsus, Demirbaş"
+  },
+  {
+    "file": "scratch\\search_raw_captions.js",
+    "line": 11,
+    "keyword": "taahhüt",
+    "content": "if (/proje|elektrik|taahhüt|aydınlatma|demirbaş|yusuf|eren|ges|güç|enerji|sistem/i.test(line)) {"
+  },
+  {
+    "file": "scratch\\search_raw_captions.js",
+    "line": 11,
+    "keyword": "ges",
+    "content": "if (/proje|elektrik|taahhüt|aydınlatma|demirbaş|yusuf|eren|ges|güç|enerji|sistem/i.test(line)) {"
+  },
+  {
+    "file": "scratch\\search_transcript.js",
+    "line": 27,
+    "keyword": "ges",
+    "content": "// Let's look for user messages"
+  },
+  {
+    "file": "scratch\\search_transcript.js",
+    "line": 42,
+    "keyword": "ges",
+    "content": "// Look for tool calls that executed browser or generated images"
+  },
+  {
+    "file": "scratch\\swap_texts.js",
+    "line": 10,
+    "keyword": "taahhüt",
+    "content": "hero_desc_old: 'hero_desc: \"Dünya standartlarında elektrik taahhüt ve premium yapı projeleriyle küresel ölçekte geleceği inşa ediyoruz.\",',"
+  },
+  {
+    "file": "scratch\\update_elektrik_generic_translations.js",
+    "line": 8,
+    "keyword": "ges",
+    "content": "elektrik_proj_2_title: \"Güneş Enerjisi Santrali (Solar GES) Projesi\","
+  },
+  {
+    "file": "scratch\\update_elektrik_generic_translations.js",
+    "line": 20,
+    "keyword": "ges",
+    "content": "elektrik_proj_2_title: \"مشروع محطة الطاقة الشمسية (GES)\","
+  },
+  {
+    "file": "scratch\\update_elektrik_generic_translations.js",
+    "line": 26,
+    "keyword": "ges",
+    "content": "elektrik_proj_2_title: \"მზის ელექტროსადგურის (Solar GES) პროექტი\","
+  },
+  {
+    "file": "task.md",
+    "line": 24,
+    "keyword": "ges",
+    "content": "- `[x]` Translate all new Turkish copy (Tarihçe, CEO, Misyon & Hedefler) and navigation items into 6 languages (EN, AR, KA, RU, FR, IT)"
+  },
+  {
+    "file": "task.md",
+    "line": 34,
+    "keyword": "ges",
+    "content": "- `[x]` Route submenu links directly to specific subpages and auto-activate the tab."
+  },
+  {
+    "file": "task.md",
+    "line": 40,
+    "keyword": "ges",
+    "content": "- `[x]` Set dropdown width to `max-content` and adjust paddings to auto-expand to fit translated text across all languages."
+  },
+  {
+    "file": "task.md",
+    "line": 51,
+    "keyword": "ges",
+    "content": "- `[x]` Inject 11 new translation keys and 16 scopes translation keys for 7 languages into `js/app.js`"
+  },
+  {
+    "file": "task.md",
+    "line": 71,
+    "keyword": "ges",
+    "content": "- `[x]` Increase page banner heights from `200px` to `280px` to make banner images and videos significantly more visible."
+  },
+  {
+    "file": "task.md",
+    "line": 83,
+    "keyword": "ges",
+    "content": "- `[x]` Standardize CEO name \"Yusuf Eren DEMİRBAŞ\" in Latin characters with capitalized surname across all 7 languages"
+  },
+  {
+    "file": "task.md",
+    "line": 92,
+    "keyword": "ges",
+    "content": "- `[x]` Define a comprehensive circular flag SVGs dictionary for 7 languages (TR, EN, AR, KA, RU, FR, IT) in `js/app.js`"
+  },
+  {
+    "file": "task.md",
+    "line": 97,
+    "keyword": "ges",
+    "content": "- `[x]` Validate changes, verify layout rendering, and run Javascript syntax checks"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 111,
+    "keyword": "taahhüt",
+    "content": "- **Profile Extraction**: Extracted the core business fields from the `dadsonelektrik` Instagram bio: *\"Üç kuşağın bilgisiyle Elektrik Taahhüt, Aydınl"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 116,
+    "keyword": "taahhüt",
+    "content": "- **Elektrik Taahhüt** (Electrical Contracting)"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 124,
+    "keyword": "taahhüt",
+    "content": "- **Elektrik Taahhüt**: Medium Voltage infrastructure, Low Voltage distribution, Weak Current systems, and residential/factory contracting."
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 67,
+    "keyword": "ges",
+    "content": "- Updated the translations dictionary in all 7 languages."
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 74,
+    "keyword": "ges",
+    "content": "- **Multilingual Dropdown Auto-expansion**: Replaced the fixed calculation width of the desktop dropdown box with `width: max-content` and added a fal"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 112,
+    "keyword": "ges",
+    "content": "- **Translation Extension**: Added 11 new translation keys and 16 detailed scope keys across all 7 supported languages (TR, EN, AR, KA, RU, FR, IT) in"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 119,
+    "keyword": "ges",
+    "content": "- **Güneş Enerjisi (Solar GES)** (Solar Energy/GES)"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 127,
+    "keyword": "ges",
+    "content": "- **Güneş Enerjisi (Solar GES)**: Rooftop solar PV, Ground-mounted installations, permitting/legal consulting, and maintenance."
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 146,
+    "keyword": "ges",
+    "content": "- **`.elektrik-page-logo-img` Class**: Styled the inline logo image (`Images/DADSON.png`) displayed inside the Dadson Elektrik header title (`.elektri"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 176,
+    "keyword": "ges",
+    "content": "- **Same-View Routing Reset**: Extended the router `navigateTo` handler in `js/app.js` when clicking tab links inside the same active view (e.g. from "
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 186,
+    "keyword": "ges",
+    "content": "- **Height Increase**: Raised the height of `.contact-banner-header` from `200px` to `280px`, giving much more breathing room and visual visibility to"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 216,
+    "keyword": "ges",
+    "content": "- Designed and translated the titles, descriptions, and 4 detailed scope bullet points for each service across all 7 languages: **Turkish (TR)**, **En"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 228,
+    "keyword": "ges",
+    "content": "- Standardized the representation of the CEO's name as **Yusuf Eren DEMİRBAŞ** and **Eren DEMİRBAŞ** (with capitalized surname) across all 7 languages"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 241,
+    "keyword": "ges",
+    "content": "### 2. Dadson Elektrik subpages mobile banner optimizations"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 341,
+    "keyword": "ges",
+    "content": "- **Project 1**: `Images/project_railway.png` (Raylı Sistemler & Altyapı)"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 342,
+    "keyword": "ges",
+    "content": "- **Project 2**: `Images/project_solar.png` (Yenilenebilir Enerji GES)"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 343,
+    "keyword": "ges",
+    "content": "- **Project 3**: `Images/project_industrial.png` (Endüstriyel Tesis)"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 344,
+    "keyword": "ges",
+    "content": "- **Project 4**: `Images/project_towers.png` (Konut & Ticari)"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 345,
+    "keyword": "ges",
+    "content": "A subtle, modern scale animation (`scale(1.05)`) with an elegant Bezier timing curve is applied to the images on card hover."
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 346,
+    "keyword": "ges",
+    "content": "- **Arabic RTL Alignment**: Handled right-to-left layout constraints, ensuring that labels, badges, and project metadata align properly when Arabic is"
+  },
+  {
+    "file": "walkthrough.md",
+    "line": 354,
+    "keyword": "ges",
+    "content": "- **Swipe and Grab Control**: Added touch swipe listener for mobile and dragging swipe listener for desktop viewports, with a 60px distance threshold "
+  }
+]

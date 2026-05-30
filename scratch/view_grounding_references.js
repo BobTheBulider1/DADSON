@@ -1,0 +1,38 @@
+const fs = require('fs');
+const readline = require('readline');
+
+const transcriptPath = 'C:/Users/İbrahim MATARMAVI/.gemini/antigravity/brain/b4757362-a0a4-472c-bcaf-aa0c8ae43091/.system_generated/logs/transcript.jsonl';
+const outPath = 'scratch/grounding_scenes_info.txt';
+
+async function search() {
+    const fileStream = fs.createReadStream(transcriptPath);
+    const rl = readline.createInterface({
+        input: fileStream,
+        crlfDelay: Infinity
+    });
+
+    let index = 0;
+    let matches = [];
+    
+    for await (const line of rl) {
+        index++;
+        if (line.includes('grounding_scene') && line.includes('Type: PLANNER_RESPONSE') || (line.includes('grounding_scene') && line.includes('view_file'))) {
+            try {
+                const step = JSON.parse(line);
+                let content = step.content || '';
+                let matchStr = `\n--- STEP ${index} (Type: ${step.type} | Source: ${step.source}) ---\n`;
+                matchStr += content + '\n';
+                if (step.tool_calls) {
+                    matchStr += "Tool calls: " + JSON.stringify(step.tool_calls, null, 2) + '\n';
+                }
+                matches.push(matchStr);
+            } catch (e) {
+                // Ignore parse errors
+            }
+        }
+    }
+    
+    fs.writeFileSync(outPath, matches.join('\n'), 'utf8');
+    console.log(`Saved ${matches.length} matches to ${outPath}`);
+}
+search();
